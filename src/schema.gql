@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""Product Entity"""
+type Product {
+  """id of product"""
+  id: String!
+
+  """name of product"""
+  name: String!
+}
+
+type Query {
+  products: [Product!]!
+}
